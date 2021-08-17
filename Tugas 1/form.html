@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Buat Accuont Baru</h1>
+    <h3>Sign Up Form</h3>
+    <form action="welcome.html" method="POST">
+        <label for="nama_depan">First name:</label>
+        <br> <br>
+        <input type="text" placeholder="Nama Depan" id=nama_depan>
+        <br> <br>
+        <label for="nama_belakang">Last name:</label> 
+        <br> <br>
+        <input type="text" placeholder="Nama Belakang" id=nama_belakang>
+        <br> <br>
+        <label>Gender</label>
+        <br> <br>
+        <input type="radio" name="Gender" value="0">Male <br>
+        <input type="radio" name="Gender" value="1">Femele <br>
+        <input type="radio" name="Gender" value="2">Other
+        <br> <br>
+        <Label>Nationality</Label>
+        <select>
+            <option value="ind" >Indonesia</option>
+            <option value="sgn" >Singapura</option>
+            <option value="mly">Malaysia</option>
+            <option value="aus" >Australia</option>
+        </select>
+        <br> <br>
+        <label>Language Spoken</label>
+        <br> <br>
+        <input type="checkbox" name="Bahasa" value="0">Bahasa Indonesia <br>
+        <input type="checkbox" name="Bahasa" value="1">English <br>
+        <input type="checkbox" name="Bahasa" value="2">Other 
+        <br> <br>
+        <label>Bio</label>
+        <br><br>
+        <textarea cols="50" rows="10"></textarea> <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
